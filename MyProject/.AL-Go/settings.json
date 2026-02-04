@@ -9,9 +9,9 @@
     "https://github.com/aholstrup1/InstallAppsTestRepo/releases/download/v1.0.0/MultipleApps.zip",
     "https://github.com/aholstrup1/InstallAppsTestRepo/releases/download/v1.0.0/MyPackage.1.0.0.nupkg",
     "https://github.com/aholstrup1/InstallAppsTestRepo/releases/download/v1.0.0/NestedZip.zip",
-    "./LocalApps"
+    "../LocalApps"
   ],
   "installTestApps": [
-    "./LocalApps/SubFolder1/*.app"
+    "../LocalApps/SubFolder1/*.app"
   ]
 }
