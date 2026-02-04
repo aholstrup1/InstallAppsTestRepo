@@ -1,7 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup/installApps_download/Actions/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
+  "appFolders": ["MyApp"],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "installApps": [
+    "https://raw.githubusercontent.com/aholstrup1/InstallAppsTestRepo/main/Dependencies/TestDependency.app",
+    "./LocalApps"
+  ],
+  "installTestApps": []
 }
